@@ -1,16 +1,19 @@
-# pks3
+### Игнатов Иван ЭФБО-01-22 Практика 4
+#### В приложении теперь возможно добавлять и удалять новые товары. Для этого неободимо нажать на специальную кнопку. Для добавления на "+" а для удаления на крестик в углу каждой карточки товара.
+### Страница для добавления товара
+![image](https://github.com/user-attachments/assets/7c395985-470c-458f-b9f1-7c2f8012bd86)
+### Добавленная страница
+![image](https://github.com/user-attachments/assets/7d95163f-93f7-45fd-bd02-37f813b7bd6b)
 
-A new Flutter project.
+### Тестовые данные для товара 
+##### Название: Граммидин
+##### Описание: Антибактериальное средство для горла.
+##### Полное описание: Граммидин — антисептическое и антибактериальное средство для местного применения при инфекционно-воспалительных заболеваниях горла и полости рта. Помогает облегчить боль, уменьшить воспаление и уничтожить бактерии. Обычно используется при ангине, фарингите и тонзиллите. Рекомендуемая дозировка для взрослых — 2 таблетки 3-4 раза в день после еды.
+##### Ссылка на товар: https://apteka.ru/search/?q=Граммидин
+##### Ссылка на картинку к товару: https://avatars.mds.yandex.net/i?id=f90b40727b9dcd47fdec5f182d54cb17370b75c5-4339039-images-thumbs&n=13
 
-## Getting Started
+### Товары до удаления
+![image](https://github.com/user-attachments/assets/b3047810-c56e-40c9-90a9-996b88f4b068)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### После
+![image](https://github.com/user-attachments/assets/68efb7fb-e6c8-447c-ba4e-ec46ab8d5171)
