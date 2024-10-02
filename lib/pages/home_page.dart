@@ -38,8 +38,12 @@ class _HomePageState extends State<HomePage> {
       products = loadedProducts;
     });
   }
+  void _removeProduct(int index) {
+    setState(() {
+      products.removeAt(index);
+    });
+  }
 
-  // Переход на страницу добавления нового продукта
   void _navigateToAddProduct(BuildContext context) async {
     final newProduct = await Navigator.push(
       context,
@@ -70,6 +74,8 @@ class _HomePageState extends State<HomePage> {
             productUrl: product.url,
             fullDescription: product.fullDescription,
             img: product.img,
+            onRemove: () => _removeProduct(index),
+
           );
         },
       ),
